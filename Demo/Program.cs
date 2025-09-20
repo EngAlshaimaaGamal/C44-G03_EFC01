@@ -1,10 +1,19 @@
-﻿namespace Demo
+﻿using Demo.DatabaseContext;
+using Microsoft.EntityFrameworkCore;
+
+namespace Demo
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+          
+            //using  CompanyDbContext dbContext = new CompanyDbContext();
+            //dbContext.Database.Migrate();
+
+
+
+
         }
     }
 }
