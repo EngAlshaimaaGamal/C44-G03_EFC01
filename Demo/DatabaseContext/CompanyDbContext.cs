@@ -21,10 +21,12 @@ namespace Demo.DatabaseContext
             optionsBuilder.UseSqlServer("Server=.;Database= CompanyG03;Trusted_Connection =True;TrustServerCertificate=True");
         }
 
-        public DbSet<Models.Employee> Employees { get; set; }   
-        public DbSet<Models.Department> Departments { get; set; }
+       // public DbSet<Models.Employee> Employees { get; set; }   
+        //public DbSet<Models.Department> Departments { get; set; }
 
-        public DbSet<Models.Project> Projects { get; set; } 
+       // public DbSet<Models.Project> Projects { get; set; } 
+
+        public DbSet<Models.Employee> Employees { get; set; }
 
       
 
